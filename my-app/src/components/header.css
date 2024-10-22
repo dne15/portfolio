@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+h1 {
+    font-family: 'Vogue';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-family: 'Vogue';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    text-align: center;
+}
