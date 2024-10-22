@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <span className='intro'>
-      I'm Dionne. A problem solver with a passion for Tech       
+      I&apos;m Dionne. A problem solver with a passion for Tech       
        </span>
       
       <div className='highlightsTitle'>
