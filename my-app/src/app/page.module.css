@@ -16,6 +16,8 @@
   font-family: var(--font-geist-sans);
 }
 
+
+
 @media (prefers-color-scheme: dark) {
   .page {
     --gray-rgb: 255, 255, 255;
@@ -105,7 +107,6 @@ a.secondary {
   flex-shrink: 0;
 }
 
-/* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   a.primary:hover {
     background: var(--button-primary-hover);
@@ -162,4 +163,17 @@ a.secondary {
   .logo {
     filter: invert();
   }
+}
+
+.iframeContainer {
+  display: flex;
+  gap: 1rem; /* Adjust the value to increase or decrease the gap */
+}
+
+iframe {
+  flex: 1; /* Optional: makes iframes take equal space */
+}
+
+.quizFrame {
+  margin: 1rem;
 }
