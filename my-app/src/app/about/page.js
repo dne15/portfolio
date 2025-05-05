@@ -9,24 +9,25 @@ export default function About() {
 
       <span className='aboutMe'>
 
-      I&apos;m Dionne, a beginner a full-stack developer and project manager with a passion for building web applications and leading projects from start to finish. I began my journey in web development because I love innovation, creativity and puzzles and want to create solutions to real world problems. <br /><br />
+      I&apos;m Dionne.<br></br><br></br>
 
-      I have just graduated from the School of Code bootcamp where I have spent 16 weeks learning the fundamentals of programming and how to work within a high-performance tech team. Through this I have gained experience with Front-end and Back-end Development, Database Management, QA, Product Mnagement, DevOps, Cybersecurity, and AI.
+      I'm a Quality Assurance Engineer with a passion for front-end development.<br></br><br></br>
+  
+      After completing the School of Code bootcamp, I gained experience in fullstack development with React, JavaScript, Node.js, SQL, as well as Project Management, UX/UI and QA. I&apos;m passionate about building clean, responsive interfaces and creating real-world solutions focusing on the user experience.<br></br><br></br>
 
-      With experience in both front-end and back-end, I&apos;m skilled in technologies like HTML, CSS, JavaScript, React, Node.js, and SQL to help build responsive, user-friendly websites.
-
-      My project management experience ensures that each project I work on is organised, delivered on time, and meets the criteria. I enjoy collaborating with teams and stakeholders, setting clear milestones, and keeping projects on track.
-
-      My goal is to continue learning and improving, diving deeper into JavaScript frameworks and backend development as I grow.<br /><br />
-
-      When I&apos;m not coding or planning my next project, you can find me planning my next trip or binging a new kdrama/anime series. <br /><br />
+      With a strong eye for detail and a structured approach to collaboration, I bring both technical ability and a QA mindset to front-end development. I'm currently expanding my skills in modern front-end tools as I work toward my next role.<br></br><br></br>
+    
+      When I&apos;m not coding or planning my next project, you can find me arranging my next trip ☀. <br /><br />
 
       I&apos;m always open to new challenges, so feel free to <Link href="/contact">contact me</Link> if you&apos;d like to collaborate!
       <br /><br />
 
       </span>
+      <div className='skillsList'>
       <h3>Skills List</h3>
+      <br></br>
       <Skills />
+      </div>
     </div>
   )
 }

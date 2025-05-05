@@ -1,0 +1,5 @@
+.skillsList {
+    list-style-position: inside; /* Aligns the bullet points with the text */
+    padding: 0; /* Optional: Removes default padding */
+    margin: 0 auto; /* Centers the list container */
+}
