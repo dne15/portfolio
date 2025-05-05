@@ -16,8 +16,6 @@
   font-family: var(--font-geist-sans);
 }
 
-
-
 @media (prefers-color-scheme: dark) {
   .page {
     --gray-rgb: 255, 255, 255;
@@ -167,13 +165,12 @@ a.secondary {
 
 .iframeContainer {
   display: flex;
-  gap: 1rem; /* Adjust the value to increase or decrease the gap */
+  gap: 1rem; /* Creates a 2rem gap between the iframes */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
 }
 
-iframe {
-  flex: 1; /* Optional: makes iframes take equal space */
-}
 
-.quizFrame {
-  margin: 1rem;
-}
+
